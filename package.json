@@ -1,0 +1,39 @@
+{
+  "name": "@libnoname/noname-server",
+  "version": "0.1.0",
+  "description": "Composite server environment for noname.",
+  "keywords": [
+    "noname"
+  ],
+  "homepage": "https://github.com/libnoname/noname-server#readme",
+  "bugs": {
+    "url": "https://github.com/libnoname/noname-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libnoname/noname-server.git"
+  },
+  "license": "Apache-2.0",
+  "author": "libnoname",
+  "contributors": [
+    "rintim <rintim@foxmail.com>"
+  ],
+  "type": "module",
+  "main": "dist/noname-server.js",
+  "bin": {
+    "noname-server": "dist/noname-server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538",
+  "volta": {
+    "node": "22.14.0",
+    "yarn": "4.9.1"
+  }
+}
