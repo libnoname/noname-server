@@ -7,4 +7,4 @@
 
 > W.I.P
 >
-> 目前计划的重心在于 [libnoname/noname-server-go](https://github.com/libnoname/noname-server-go)
+> 目前计划的重心在于 [libnoname/noname-server-native](https://github.com/libnoname/noname-server-native)
