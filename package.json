@@ -19,9 +19,11 @@
     "rintim <rintim@foxmail.com>"
   ],
   "type": "module",
-  "main": "dist/noname-server.js",
   "bin": {
     "noname-server": "dist/noname-server.js"
+  },
+  "exports": {
+    "./package.json": "./package.json"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
