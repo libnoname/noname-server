@@ -19,14 +19,15 @@
     "rintim <rintim@foxmail.com>"
   ],
   "type": "module",
-  "bin": {
-    "noname-server": "dist/noname-server.js"
-  },
   "exports": {
     "./package.json": "./package.json"
   },
+  "bin": "dist/noname-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "koa": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^9.24.0",
